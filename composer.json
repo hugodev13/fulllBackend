@@ -1,0 +1,21 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "11"
+    },
+    "autoload": {
+        "classmap": [
+            "App/Commands/",
+            "App/Handlers/",
+            "Domain/",
+            "Domain/Enum/",
+            "Infra/Repositories/",
+            "tests/"
+        ],
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "require": {
+        "minicli/minicli": "^4.2"
+    }
+}
