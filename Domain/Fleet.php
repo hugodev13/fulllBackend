@@ -13,7 +13,7 @@ class Fleet
         $this->vehicles[$vehicle->getId()] = $vehicle;
     }
 
-    public function hasVehicle(Vehicle $vehicle)
+    public function hasVehicle(Vehicle $vehicle): bool
     {
         return isset($this->vehicles[$vehicle->getId()]);
     }
