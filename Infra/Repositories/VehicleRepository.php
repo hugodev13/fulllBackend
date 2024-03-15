@@ -12,6 +12,5 @@ class VehicleRepository
     {
         $this->vehicles[$vehicle->getId()] = $vehicle;
     }
-
-    // Other methods as needed
+    
 }
