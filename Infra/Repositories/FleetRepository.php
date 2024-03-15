@@ -12,6 +12,5 @@ class FleetRepository
     {
         // Save fleet to repository
     }
-
-    // Other methods as needed
+    
 }
